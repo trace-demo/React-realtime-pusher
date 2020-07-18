@@ -6,12 +6,12 @@ const app = express()
 const Pusher = require('pusher')
 
 
-
+// attention to how to link to React App / Today.js
 const pusher = new Pusher({
-    appId: '1037201',
-    key: '3978b7a148551aa0410e',
-    secret: '294dcf0d0c86bf1bfb50',
-    cluster: 'us2',
+    appId: '',                  /* filled by your own */
+    key: '',
+    secret: '',
+    cluster: '',
     encrypted: true
 })
 
