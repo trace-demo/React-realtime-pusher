@@ -6,7 +6,7 @@ const app = express()
 const Pusher = require('pusher')
 
 
-// attention to how to link to React App / Today.js
+// attention to how it link to React App / Today.js
 const pusher = new Pusher({
     appId: '',                  /* filled by your own */
     key: '',
