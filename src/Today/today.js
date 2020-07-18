@@ -13,7 +13,7 @@ class Today extends React.Component {
         }
     }
 
-
+8
     sendPricePusher (data) {
         axios.post('/prices/new', {
             prices: data
@@ -28,8 +28,8 @@ class Today extends React.Component {
  
 
     componentDidMount() {
-        this.pusher = new Pusher('3978b7a148551aa0410e', {
-            cluster: 'us2',
+        this.pusher = new Pusher(<app_key>, { /* filled by your own */
+            cluster: '',
             encrypted: true
           });
       
